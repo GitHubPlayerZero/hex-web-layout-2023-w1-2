@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+/* * {
+	outline: 1px dashed black;
+}
+div, p, li {
+	outline: 1px solid blue;
+} */
+
+body {
+	font-family: 'Castoro', serif;
+	line-height: 1.5;
+}
+
+.container {
+	width: 1296px;
+	margin: 0 auto;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* header */
+.header {
+	margin-top: 160px;
+}
+.header .title {
+	font-size: 128px;
+	letter-spacing: 0.12em;
+}
+.header h2.title {
+	text-align: right;
+}
+
+
+/* desc */
+.desc-bg {
+	background: #EFEFEF;
+	padding: 48px 0;
+	margin-bottom: 80px;
+}
+
+.desc {
+	width: 636px;
+	margin-left: auto;
+	font-size: 32px;
+}
+
+
+/* experience */
+.experience {
+	width: 636px;
+	font-size: 24px;
+	margin-bottom: 160px;
+}
+
+.experience .title {
+	font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid #AE0000;
+	margin-bottom: 16px;
+}
+.experience > li {
+	margin-bottom: 40px;
+}
+
+.vito-evans li:not(:last-child) {
+	margin-bottom: 8px;
+}
+.vito-evans a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.education li:not(:last-child),
+.work li:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.awards li:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.period {
+	font-size: 20px;
+	color: #949494;
+	font-style: italic;
+}
+
+
+/* footer */
+.footer {
+	background: #000000;
+	text-align: center;
+	padding: 64px 0;
+}
+.footer li {
+	display: inline-block;
+	margin-right: 40px;
+}
+.footer li:last-child {
+	margin-right: 0;
+}
+.footer a:hover {
+	opacity: 0.5;
+  }
